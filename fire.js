@@ -12,7 +12,7 @@ var bigbooms = [];
 
 document.getElementById("iframMusic").onload = function(){
     var music = document.getElementById("music");
-    music.src = 'music.mp3';
+    music.src = 'DAOKO,米津玄師 - 打上花火.mp3';
     music.oncanplay = function(){
         music.play();
     };
